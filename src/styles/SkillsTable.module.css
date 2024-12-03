@@ -1,0 +1,102 @@
+.tableContainer {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1c1c9e;
+}
+
+.searchFilterWrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.searchBar {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.filterDropdown {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.skillsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.skillsTable th,
+.skillsTable td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.evenRow {
+  background-color: #f3f3f3;
+}
+
+.oddRow {
+  background-color: #fff;
+}
+
+.skillImage {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.portfolioLink {
+  color: #1c1c9e;
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.editBtn,
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.editBtn {
+  color: green;
+}
+
+.deleteBtn {
+  color: red;
+}
+
+.noData {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #1c1c9e;
+}

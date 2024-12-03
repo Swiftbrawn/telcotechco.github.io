@@ -1,0 +1,102 @@
+.searchFilterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filterSelect {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tableContainer {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.searchBar {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.filterDropdown {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.studentTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.studentTable th,
+.studentTable td {
+  padding: 10px;
+  text-align: center; /* Center all text in the table */
+  border: 1px solid #ddd;
+}
+
+.studentTable th {
+  background-color: #1c1c9e;
+  color: white;
+}
+
+.evenRow {
+  background-color: #f9f9f9;
+}
+
+.oddRow {
+  background-color: #ffffff;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; /* Ensure avatar images are centered */
+}
+
+.actions {
+  display: flex;
+  justify-content: center; /* Center action buttons */
+  gap: 10px;
+}
+
+.editBtn,
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #1c1c9e;
+}
+
+.socialLink {
+  color: #1c1c9e;
+  text-decoration: none;
+  text-align: center; /* Ensure social link is centered */
+}
+
+.socialLink:hover {
+  text-decoration: underline;
+}
